@@ -9,8 +9,13 @@ import sqlite3
 import tempfile
 import threading
 import uuid
-from datetime import datetime
-from typing import Optional, List
+import sys
+import subprocess
+try:
+    import fastapi
+except ImportError:
+    print("Dependencies not found. Installing requirements.txt...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "--no-cache-dir", "-r", "requirements.txt"])
 
 from fastapi import FastAPI, HTTPException, Query, UploadFile, File, Header, Depends, Response
 from fastapi.middleware.cors import CORSMiddleware
