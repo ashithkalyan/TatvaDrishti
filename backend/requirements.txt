@@ -1,0 +1,17 @@
+# KAVACH Backend — self-hosted brain architecture
+fastapi>=0.115,<0.142
+uvicorn>=0.30,<0.53
+pydantic>=2.9,<2.14
+bcrypt>=4.2,<5.1
+python-dotenv>=1.0
+python-multipart>=0.0.9
+networkx>=3.4,<3.5
+requests>=2.32
+pdfplumber>=0.11
+pytesseract>=0.3.13
+Pillow>=10.0
+faker>=25
+reportlab>=4.2,<5.1
+zcatalyst-sdk>=1.4.0
+
+

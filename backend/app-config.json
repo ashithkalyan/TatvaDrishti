@@ -1,0 +1,16 @@
+{
+	"command": "python3 main.py",
+	"build_path": "./",
+	"stack": "python_3_10",
+	"memory": 512,
+	"env_variables": {
+		"DB_PATH": "/tmp/kavach.db",
+		"DEMO_MODE": "false",
+		"ENABLE_CATALYST_CACHE": "true",
+		"SESSION_LIFETIME_HOURS": "12",
+		"KAVACH_ENV": "production",
+		"OLLAMA_ENABLED": "false",
+		"PYTHONUNBUFFERED": "1"
+	},
+	"scripts": {}
+}

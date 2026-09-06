@@ -1,0 +1,47 @@
+{
+  "defaults": {
+    "project": 1
+  },
+  "actives": {
+    "project": 2,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "46957000000103002",
+      "name": "TatvaDrishti-Datathon",
+      "domain": {
+        "id": "50045611377",
+        "name": "tatvadrishti-datathon-60075813203.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60075813203",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "id": "46957000000074001",
+      "name": "TatvaDrishti-KSP",
+      "domain": {
+        "id": "50045388148",
+        "name": "tatvadrishti-ksp-60075813203.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60075813203",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
