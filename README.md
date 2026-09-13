@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="docs/images/05_multi_hop_network.jpg" width="80" alt="KAVACH Logo"/>
+<img src="docs/images/tatvadrishti_logo.png" width="180" alt="TatvaDrishti Logo"/>
 
 # KAVACH
 ### Karnataka AI Voice & Crime Hub
 
-**Karnataka State Police · SCRB · Karnataka Police Datathon 2026**
+**Team TatvaDrishti · Karnataka State Police · SCRB · Datathon 2026**
 
 *A fully self-hosted Crime Intelligence Platform — zero external LLM API dependency, every inference grounded in a real database row.*
 
